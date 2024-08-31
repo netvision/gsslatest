@@ -13,21 +13,22 @@ const menuItems = [
             { label: 'Other Info', url: '/info' }
           ],
         },
-        { label: 'Principal & Staff', url: '/#/other' },
+        { label: 'Principal & Staff', url: '/staff' },
         { label: 'Facilities', url: '/facilities' },
         { label: 'Photo Gallery', url: '/gallery' },
-        { label: 'Contact', url: '/contact' },
+        { label: 'Contact Us', url: '/contact' },
       ]
 </script>
 <template>
-  <header class="flex flex-col sm:flex-row items-end max-w-7xl mx-auto pl-4 sm:pl-6 lg:pl-8 w-full pt-4">
-      <img :src="logo" class="h-24 sm:h-44 p-2" />
+  <header class="bg-slate-200 w-full">
+  <div class="flex flex-col sm:flex-row items-end max-w-7xl mx-auto pl-4 sm:pl-6 lg:pl-8 w-full pt-4">
+      <a href="/"><img :src="logo" class="h-24 sm:h-44 p-2" /></a>
       <div>
         <h2 class="merriweather-bold text-4xl sm:text-4xl text-orange-800 pl-0 sm:pl-8 font-bold">
           Ginnidevi Satyanarayan Sekhsaria
         </h2>
         <h2 class="lato-regular text-3xl sm:text-3xl text-orange-800 pl-0 sm:pl-8 font-bold">
-          GSS Girls' PG College, Chirawa
+          Girls' PG College, Chirawa
         </h2>
         <p class="barlow-light text-lg sm:text-lg mb-3 text-black pl-0 sm:pl-8 font-bold">Affiliated to Pandit Dindayal Upadhaya Shekhawati University, Sikar</p>
       </div>
@@ -91,8 +92,19 @@ const menuItems = [
         </a>
       </div>
       </div>
-    </header>
-    <Menubar :model="menuItems" class="max-w-7xl w-full mx-auto bg-red-100" />
+    </div>
+    <Menubar :model="menuItems" class="max-w-7xl mx-auto">
+      <template #item="{ item, props, hasSubmenu, root }">
+      <div class="bg-slate-200 rounded-md">
+        <a class="flex items-center" v-bind="props.action" :href="item.url">
+            <span class="ml-2">{{ item.label }}</span>
+            <i v-if="hasSubmenu" :class="['pi pi-angle-down', { 'pi-angle-down ml-2': root, 'pi-angle-right ml-auto': !root }]"></i>
+        </a>
+        </div>
+    </template>
+    </Menubar>
+  </header>
+    
 </template>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
@@ -103,13 +115,13 @@ const menuItems = [
 }
 .barlow-light {
   font-family: "Barlow", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-style: italic;
 }
 
 .barlow-regular {
   font-family: "Barlow", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
 }
 
