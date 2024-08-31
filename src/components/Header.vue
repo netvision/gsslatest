@@ -35,7 +35,7 @@ const menuItems = [
       <div class="text-black sm:w-60 ml-auto">
       <div class="gap-3 text-right">
       <!-- Facebook -->
-      <a href="#!" role="button">
+      <a href="https://www.facebook.com/gsschirawa" target="_blank" role="button">
         <span class="[&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-[#1877f2] inline-block mx-2">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
             <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
@@ -45,7 +45,7 @@ const menuItems = [
         </span>
         </a>
         <!-- Instagram -->
-        <a href="#!" role="button">
+        <a href="https://www.instagram.com/gsschirawa" target="_blank" role="button">
         <span class="[&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-[#c13584] inline-block mx-2">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
             <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
@@ -55,7 +55,7 @@ const menuItems = [
         </span>
         </a>
         <!-- Youtube -->
-        <a href="#!" role="button">
+        <a href="https://www.youtube.com/@gsschirawa7456" target="_blank" role="button">
         <span class="[&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-[#ff0000] inline-block mx-2">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
             <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
