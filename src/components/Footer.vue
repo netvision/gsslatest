@@ -14,7 +14,7 @@ const mapApi = ref(import.meta.env.VITE_MAPKEY)
   <footer class="text-center p-3 bg-orange-200">
   <div class="flex gap-4 max-w-7xl mx-auto">
   <div class="w-1/3 bg-slate-200">
-    {{ mapApi }}
+    <h2 class="barlow-light text-left text-2xl mb-3 pl-3 bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-teal-500">Important Links</h2>
   </div>
   <div class="w-1/3 bg-slate-200">
     <h2 class="barlow-light text-left text-2xl mb-3 pl-3 bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-teal-500">Google Location</h2>
