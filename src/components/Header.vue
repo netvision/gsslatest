@@ -24,6 +24,7 @@ const menuItems = [
   <div class="flex flex-col sm:flex-row items-end max-w-7xl mx-auto pl-4 sm:pl-6 lg:pl-8 w-full pt-4">
       <a href="/"><img :src="logo" class="h-24 sm:h-44 p-2" /></a>
       <div>
+        <p class="barlow-light text-lg sm:text-lg text-black pl-0 sm:pl-8 font-bold">Accredited <span class="lato-black text-xl text-blue-900">B++</span> by NAAC</p>
         <h2 class="merriweather-bold text-4xl sm:text-4xl text-orange-800 pl-0 sm:pl-8 font-bold">
           Ginnidevi Satyanarayan Sekhsaria
         </h2>
@@ -78,7 +79,7 @@ const menuItems = [
         </span>
         </a>
         <!-- Whatsapp -->
-        <a href="#!" role="button">
+        <a href="https://wa.me/7878306013" target="_blank" role="button">
         <span class="[&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-[#128c7e] inline-block mx-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"

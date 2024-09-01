@@ -2,13 +2,19 @@
 import slide1 from '../assets/gss-slide.jpg';
 import slide2 from '../assets/slide4.jpg';
 import slide3 from '../assets/slide3.jpg';
+import slide4 from '../assets/slide2.jpg';
+import slide5 from '../assets/slide1.jpg';
+import slide6 from '../assets/slide6.jpg';
 import logo from '../assets/gss-logo.png';
+import founder from '../assets/founder.png';
 
 const slides = [
         slide1,
         slide2,
         slide3,
-        slide1
+        slide4,
+        slide5,
+        slide6
       ]
 </script>
 
@@ -27,7 +33,16 @@ const slides = [
         </template>
         <template #content>
           <div class="">
-          <img :src="logo" class="h-48 float-left mr-4 mb-4 w-auto" />
+            <div class="p-4 float-left m-0 mr-4 w-auto">
+              <figure class="max-w-md mx-auto">
+                <img :src="founder" alt="Example Image" class="w-64 rounded-lg shadow-lg mb-2" />
+                <figcaption class="text-center text-gray-600 text-base italic">
+                 Shri Satyanarayan Shekhsaria<br />
+                 <sapn class=" text-blue-400">Founder</sapn> 
+                </figcaption>
+              </figure>
+            </div>
+          
           <p class="kalam-regular text-lg md:text-2xl text-justify pb-1">GSS Girls' (P.G) College, an exclusive institution for girls, fulfils a long-standing need of Chirawa, a prominent town of Shekhawati region of Rajasthan. As late as the last quarter of the 20th century there was only one girls' school in the town run by Dalmia Education Trust. There was no college for girls. There was only one college in Chirawa, run by Somani Education Trust. Though people had started realizing the importance of women's education, they were still too conservative to permit their daughters to seek higher education in a co-educational college. The desire to educate their daughters in a congenial, tension free and protected environment led the leading citizens of Chirawa to request Shri Satyanarayanji Sekhsaria to start a college exclusively for girls. This request by the citizens of Chirawa under the leadership of Ex-M.L.A. late Shri Hazari lalji was readily accepted by Shri Satyanarayanji on the condition that Shri Hazarilalji Sharma would agree to become the Secretary of the Trust running the college. Shri Sharma agreed, and in no time it was decided to start the college. The Foundation stone of the college was laid on 19th November, 1986. 19th November happens to be the birth anniversary of Mrs. Indira Gandhi, the first woman Prime Minister of Independent India.</p>
           </div>
         </template>
