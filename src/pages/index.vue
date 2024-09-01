@@ -5,7 +5,6 @@ import slide3 from '../assets/slide3.jpg';
 import slide4 from '../assets/slide2.jpg';
 import slide5 from '../assets/slide1.jpg';
 import slide6 from '../assets/slide6.jpg';
-import logo from '../assets/gss-logo.png';
 import founder from '../assets/founder.png';
 
 const slides = [
@@ -25,8 +24,8 @@ const slides = [
         <img :src="slotProps.data" class="block w-full object-cover h-48 sm:h-96" alt="Image" />
       </template>
   </Carousel>
-  <div class="flex space-x-1">
-    <div class="w-2/3 p-4">
+  <div class="block md:flex space-x-1">
+    <div class="w-full md:w-2/3 p-4">
       <Card style="background-color:#ffd">
         <template #title>
           <h1 class="barlow-light text-pretty mt-3 m-1 bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-teal-500 text-4xl font-black border-b border-blue-100">An Introduction</h1>
@@ -53,8 +52,8 @@ const slides = [
       </template>
       </Card>
       
-    </div>
-  <div class="flex-grow p-4">
+  </div>
+  <div class="block md:flex-grow p-4">
     <Card style="background-color:#ffd">
       <template #title>
         <h1 class="barlow-light text-pretty mt-3 m-1 bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-teal-500 text-4xl font-black border-b border-blue-100">Youtube</h1>
