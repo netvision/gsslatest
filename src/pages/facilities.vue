@@ -1,5 +1,7 @@
 <template>
   <div class="bg-white max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12 pt-10 rounded-sm">
     <h2 class="barlow-light text-pretty mt-3 m-1 bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-teal-500 text-4xl font-black border-b border-blue-100">Infrastructure and other Resources</h2>
-    </div>
+    <p class="text-base md:text-lg text-justify pb-1">The college boasts of a fine, compact, and aesthetically designed building and well laid lawns. Easy availability of fresh ground water helps in the maintenance of lush green lawns guarded by majestic Ashoka trees. Adjacent to the college campus we have the playground where students involve themselves in sports and games activities. There is a well furnished and well-equipped Computer Lab. We receive twenty four hour running drinking water. Three water coolers meet the need of the students' drinking water. To ensure clean drinking water, R.O. Plant (water purifier) has also been installed. There is Multipurpose Hall which is used by the students for their co-curricular and extra-curricular activities. Besides, the hall is also used for conducting talks, seminars and conferences.</p>
+    <p class="text-base md:text-lg text-justify pb-1">The college also houses a Canteen which is run on co-operative basis. A multipurpose "stand" has also been constructed for parking the vehicles of the students and the staff. All basic amenities are provided to the students so that their stay in the college is a matter of pleasure for them. The college aims at providing the students a stress-free, relaxed, and eco-friendly environment.</p>
+  </div>
 </template>
